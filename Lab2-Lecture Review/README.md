@@ -95,7 +95,7 @@ Code reproduced here:
 
 	```
 
-[Write info] (https://www.arduino.cc/en/Tutorial/DigitalPotentiometer)  
+[Write info](https://www.arduino.cc/en/Tutorial/DigitalPotentiometer)  
 Code reproduced here:
 
 	```

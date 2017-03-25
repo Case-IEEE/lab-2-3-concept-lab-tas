@@ -4,7 +4,7 @@
 
 I2C communication uses 2 lines to transmit and receive data: an SCL line which sends a constant train of square pulses, and an SDA line which data is transmitted on. Master devices initiate communication with slaves by referring to them using their specific address (found in datasheet), and then either write data to the slave or request (read) data from it.
 
-[**Read info**] (https://www.arduino.cc/en/Tutorial/SFRRangerReader)  
+[Read info](https://www.arduino.cc/en/Tutorial/SFRRangerReader)  
 Code reproduced here:  
 
 	```
@@ -95,7 +95,7 @@ Code reproduced here:
 
 	```
 
-[**Write info**] (https://www.arduino.cc/en/Tutorial/DigitalPotentiometer)  
+[Write info] (https://www.arduino.cc/en/Tutorial/DigitalPotentiometer)  
 Code reproduced here:
 
 	```

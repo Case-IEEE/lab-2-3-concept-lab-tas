@@ -43,12 +43,16 @@ Test click thresholds:
 * Set click threshold ```CLICK_THIS``` to 20  
 * Test clicks and observe ```INT1``` pin on oscilloscope **(take a screenshot and explain what is happening)** 
 * Change threshold until consistent click detection 
+
+**Extra Credit:** Turn on three LEDs based on the readings from the accelerometer.
  
 **Lab Report:** 
 
 * Take a picture of the oscilloscope with detection and explain what is happening.
 * Copy your console for the report.
 * Upload all code for the report as well.
+* Upload a picture of the three LEDs turning on for extra credit as well.
+* There is a guide for Markdown format. If you have time and can figure it out (it is a scripting language used by GitHub) try writing the lab report in it.
   
 **Note:**  
 ![Latency pic](sensors_click.png)

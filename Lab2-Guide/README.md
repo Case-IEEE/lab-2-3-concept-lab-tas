@@ -29,12 +29,11 @@ The << is a bitwise shift, so we shift the high half up 8 bits, and then and it 
   
 **Lab Report:** You'll notice that when the accelerometer is not moving, there is still some acceleration. What is the source of this acceleration? 
 
-3)	Enabling Click on Z axis  
+3)	Enabling Click on all axes  
 
-* Enable single click ```CLICK_SRC```
-* Enable z click ```CLICK_SRC```
-* Enable single click on z-axis ```CLICK_CFG```
-* Enable click on INT1 ```CTRL_REG3```
+* Set click interrupt on INT1 ```CTRL_REG3```
+* Latch INT1 register ```CTRL_REG5```
+* Enable single click on all exes ```CLICK_CFG```
 * Set Time Limit ```TIME_LIMIT``` to 10
 * Set Time Latency ```TIME_LATENCY``` to 20
 * Set Time Window ```TIME_WINDOW``` to 255

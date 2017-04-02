@@ -1,8 +1,8 @@
-#Lab 3 - Clock and Intterupts 
+# Lab 3 - Clock and Intterupts 
 
 The first part of this lab will explore some simple implementation of intteurpts on the UNO. Normally, we would change some registers and tap ports, but since Lab 2 was heavy on these items, we will use an easier "on the fly" coding method. 
 
-##Intterupt on Digital Pin 3
+## Intterupt on Digital Pin 3
 We will tap into the external interrupt capabilities of the UNO on digital pin 3. Follow these steps:
 
 * **Step 1:** Connect one side of a pushbutton to the digital pin 3 port, and the other side to GND. Don't push the pushbutton yet. You might over power the terminal and blow a pin 
@@ -23,7 +23,7 @@ Make a variable that can be accessed in any scope of the program. This is done b
 
 * **Setp 6:** Use the `Serial.println()`function to print out the volatile varibale in your `loop()`. Observe the output when the button is pushed. Does your function work?
 
-##Prescaler and Clocks
+## Prescaler and Clocks
 
 For this part of the lab, we will change the frequnecy of one our reference clocks to manipulate the frequency of a PWM pin. 
 

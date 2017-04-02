@@ -41,9 +41,9 @@ For this part of the lab, we will change the frequnecy of one our reference cloc
 
 Where the setting input is choosen from the table below. Your goal is to make the frequency on the pins to be 3.906 kHz. You know the reference clock is 16Mhz. So find the prescaler that would make the new ref clock equal to 3.906 kHz. 
 
-		Setting	    | Presclar Value
-		------------- | -------------
-		0x01			|1		0x02			|8		0x03			|32		0x04			|64		0x05			|128		0x06			|256		0x07			|1024			 
+		|Setting | Presclar Value |
+		|:---:| :---:|
+		| 0x01 | 1 |		| 0x02 | 8 |		| 0x03	| 32 |		| 0x04	| 64 |		| 0x05	| 128 |		| 0x06	| 256 |		| 0x07	| 1024 |			 
 
 
 * **Step 6:** Now set the duty cycle of pin 3 to 13% and the duty cycle of pin 11 to 85% with the following code. The value should be between 0 and 255.  
